@@ -1,0 +1,14 @@
+{
+  "name": "taks-by-rirtvik-sir",
+  "version": "1.0.0",
+  "description": "All solution's for task that assigned by Rirtvit sir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
