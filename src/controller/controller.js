@@ -9,13 +9,13 @@ const apiResponse = async (req, res) => {
         const scriptFile = path.join(dirPath, '../script/script.js');
         const scriptText = fs.readFileSync(scriptFile, 'utf8');
 
-        const scriptObfuscationResult = JavaScriptObfuscator.obfuscate(scriptText)
+        const scriptResult = JavaScriptObfuscator.obfuscate(scriptText)
 
         let response = {
             "status": 1,
             "message": "Tracking url trigger",
             "status_code": 200,
-            "data": scriptObfuscationResult
+            "data": scriptResult
         }
 
         return response
