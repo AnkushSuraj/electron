@@ -1,7 +1,7 @@
 {
-  "name": "taks-by-rirtvik-sir",
+  "name": "pre-script",
   "version": "1.0.0",
-  "description": "All solution's for task that assigned by Rirtvit sir",
+  "description": "script in api response",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,8 @@
   "author": "Suraj",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
   }
 }

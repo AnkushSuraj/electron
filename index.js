@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = require("./src/routers/urlReplaceWithValueRouter")
+const routes = require("./src/routers/router")
 
 const app = express();
 
