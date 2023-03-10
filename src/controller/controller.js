@@ -15,7 +15,7 @@ const apiResponse = async (req, res) => {
             "status": 1,
             "message": "Tracking url trigger",
             "status_code": 200,
-            "data": scriptResult
+            "data": scriptResult._obfuscatedCode
         }
 
         return response
